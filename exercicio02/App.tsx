@@ -19,10 +19,10 @@ export default function App() {
 
         <ImageBackground
           source={{
-            uri: 'https://www.petlove.com.br/images/breeds/227696/profile/original/perfil-coelho.jpg?1597789099', width: '100%', height: '100%'
-          }}
-          style={styles.backGroundTelaInteira}  
-        >
+              uri: 'https://www.petlove.com.br/images/breeds/227696/profile/original/perfil-coelho.jpg?1597789099'
+            }}
+          style={styles.backGroundTelaInteira}
+          >
           <Text>Nome:</Text>
           <TextInput />
 
